@@ -1,4 +1,42 @@
-.body {
+body{
+    justify-content: center;
     align-items: center;
-    background-color: #b7d7f3;
+    background-color: #f0ffff;
+    font-family: comfortaa;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+}
+h1{font-family: CHAVTER;}
+div p{margin: 0;}
+input{
+    width: 200px;
+    height: 30px;
+    outline: none;
+    border: 1px solid #11acc0;
+    border-radius: 12px;
+    margin: 5px;
+    padding: 3px;
+    font-family: montserrat;
+    font-weight: 650;
+    text-align: center;
+}
+button{
+    width: 150px;
+    height: auto;
+    border-radius: 30px;
+    border: 1px solid #f39d57f5;
+    padding: 8px;
+    font-family: comfortaa;
+    background-color: #ffdabbf5;
+    margin: 1.8%;
+}
+input:invalid{
+    animation: shake 0.3s;
+    border: 1px solid red;
+}
+@keyframes shake{
+    25% {transform: translateX(4px);}
+    50% {transform: translateX(-4px);}
+    75% {transform: translateX(4px);}   
 }
