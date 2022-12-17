@@ -14,7 +14,7 @@ nav{
     justify-content: right;
     align-items: right;
     padding: 0 10px;
-    box-shadow: 0 0 10px #11acc0;
+    box-shadow: 0 0 10px;
 }
 h1{font-family: CHAVTER;}
 div p{margin: 0;}
